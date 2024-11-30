@@ -158,4 +158,26 @@ CREATE TABLE IF NOT EXISTS public.predictions
     "timestamp" timestamp without time zone DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT predictions_pkey PRIMARY KEY (id)
 )
+
+-- Add the new column `unit_id` to the `nutrient` table
+ALTER TABLE nutrient
+ADD COLUMN unit_id INT;
+
+-- Update the `unit_id` column in `nutrient` table
+UPDATE nutrient
+SET unit_id = (
+    SELECT id
+    FROM measure_unit
+    WHERE measure_unit.name = nutrient.name
+)
+WHERE unit_id IS NULL;
+
+
+-- Add the foreign key constraint after the `unit_id` column is populated
+ALTER TABLE nutrient
+ADD CONSTRAINT fk_unit_id FOREIGN KEY (unit_id) REFERENCES measure_unit (id);
+
+-- Drop the unnecessary column
+ALTER TABLE predictions
+DROP COLUMN input_data;
 	
