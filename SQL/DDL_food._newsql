@@ -158,4 +158,16 @@ CREATE TABLE IF NOT EXISTS public.predictions
     "timestamp" timestamp without time zone DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT predictions_pkey PRIMARY KEY (id)
 )
+
+ALTER TABLE food_nutrient
+ADD COLUMN unit_id INT;
+
+UPDATE nutrient
+SET unit_id = measure_unit.id
+FROM measure_unit
+WHERE nutrient.name = measure_unit.name;
+
+ALTER TABLE nutrient
+ADD CONSTRAINT fk_unit_id FOREIGN KEY (unit_id) REFERENCES measure_unit(id);
+
 	
