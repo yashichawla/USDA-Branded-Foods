@@ -136,7 +136,6 @@ CREATE TABLE performance_metrics (
     model_name VARCHAR(255),  -- Define model_name as a string
     accuracy FLOAT,           -- Define accuracy as a float
     `precision` FLOAT,        -- Enclose 'precision' in backticks
-    recall FLOAT,             -- Define recall as a float
     f1_score FLOAT,           -- Define f1_score as a float
     data_size INT             -- Define data_size as an integer
 );
