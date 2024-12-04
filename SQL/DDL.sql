@@ -123,19 +123,21 @@ CREATE TABLE nutrient_incoming_name (
     FOREIGN KEY (nutrient_id) REFERENCES nutrient(id)
 );
 
--- Create the predictions table
+-- Create the predictions table with predict_id as the primary key
 CREATE TABLE predictions (
+    predict_id INT AUTO_INCREMENT PRIMARY KEY, -- Add predict_id as an auto-incrementing primary key
     model_name VARCHAR(255),
     accuracy FLOAT,
     actual_value VARCHAR(255),
     predicted_value VARCHAR(255)
 );
 
--- Create the performance_metrics table
+-- Create the performance_metrics table with per_id as the primary key
 CREATE TABLE performance_metrics (
-    model_name VARCHAR(255),  -- Define model_name as a string
-    accuracy FLOAT,           -- Define accuracy as a float
-    `precision` FLOAT,        -- Enclose 'precision' in backticks
-    f1_score FLOAT,           -- Define f1_score as a float
-    data_size INT             -- Define data_size as an integer
+    per_id INT AUTO_INCREMENT PRIMARY KEY,     -- Add per_id as an auto-incrementing primary key
+    model_name VARCHAR(255),                   
+    accuracy FLOAT,                          
+    `precision` FLOAT,                        
+    f1_score FLOAT,                            
+    data_size INT                              
 );
