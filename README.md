@@ -5,7 +5,7 @@ This project explores how food data from USDA FoodData Central can be organized 
 # Exploratory Data Analysis (EDA)
 
 ## Data Cleaning
-- Navigate to the `EDA/data_cleaning.ipynb` notebook.
+- Navigate to the `EDA/clean_data.ipynb` notebook.
 - Run the notebook to preprocess and clean the USDA dataset.
 
 ## Data Analysis
