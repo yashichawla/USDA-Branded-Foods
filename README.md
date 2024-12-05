@@ -10,9 +10,9 @@ This project explores how food data from USDA FoodData Central can be organized 
 
 ## Data Analysis
 - Explore the cleaned data using the following notebooks:
-  - `EDA/data_analysis_1.ipynb`
-  - `EDA/data_analysis_2.ipynb`
-  - `EDA/data_analysis_3.ipynb`
+  - `EDA/Data_Analysis_1.ipynb`
+  - `EDA/Data_Analysis_2.ipynb`
+  - `EDA/Data_Analysis_3.ipynb`
 - Visualize key insights using the images in the `EDA/visualization` folder.
 
 ---
