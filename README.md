@@ -20,8 +20,8 @@ This project explores how food data from USDA FoodData Central can be organized 
 # Data Engineering
 
 ## Database Setup
-- Execute the SQL scripts in the `sql` folder to create the database schema and tables.
-- Refer to the ER diagram in the `schema` folder for a visual representation.
+- Execute the SQL scripts in the `SQL` folder to create the database schema and tables.
+- Refer to the ER diagram in the `Schema` folder for a visual representation.
 
 ## Data Loading
 - Use appropriate tools (e.g., SQL queries, Python scripts) to load the cleaned data into the database tables.
@@ -32,18 +32,18 @@ This project explores how food data from USDA FoodData Central can be organized 
 
 ## Query Execution
 - Navigate to the `GUI` folder.
-- Execute SQL queries or explore pre-executed queries in the `output` folder.
+- Execute SQL queries in 'GUI.ipynb' or explore pre-executed queries in the `output` folder.
 
 ---
 
 # Machine Learning
 
 ## Logistic Regression
-- Open the `ML/logistic_regression.ipynb` notebook.
+- Open the `ML/IDMP_ML_Logistic Regression.ipynb` notebook.
 - Train and evaluate a logistic regression model to understand its predictive capability for food categorization.
 
 ## Random Forest
-- Open the `ML/random_forest.ipynb` notebook.
-- Train and evaluate a random forest model to achieve enhanced performance and feature importance insights.
+- Open the `ML/IDMP_ML_Logistic Regressi` notebook.
+- Train and evaluate a random forest model to understand its predictive capability for food categorization.
 
 
