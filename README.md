@@ -1,4 +1,4 @@
-# IDMP-Project
+# DS 5110 Introduction to Data Management and Processing
 
 This project explores how food data from USDA FoodData Central can be organized and analyzed to provide meaningful insights. The focus is on building a system that simplifies the process of categorizing food products, uncovering trends, and improving data accessibility for various stakeholders. By addressing challenges in data organization and processing, the project aims to support better decision-making in areas like inventory management, nutrition planning, and personalized recommendations.
 
