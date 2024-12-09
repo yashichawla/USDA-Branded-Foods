@@ -49,7 +49,7 @@ To obtain data from the Branded Food Products Dataset provided by the USDA, visi
 - Train and evaluate a logistic regression model to understand its predictive capability for food categorization.
 
 ## Random Forest
-- Open the `ML/IDMP_ML_Logistic Regression` notebook.
+- Open the `ML/IDMP_ML_Radom_Forest` notebook.
 - Train and evaluate a random forest model to understand its predictive capability for food categorization.
 
 
