@@ -34,6 +34,8 @@ This project explores how food data from USDA FoodData Central can be organized 
 - Navigate to the `GUI` folder.
 - Execute SQL queries in 'GUI.ipynb' or explore pre-executed queries in the `output` folder.
 
+  ![image](https://github.com/user-attachments/assets/d623a407-bac9-4b2b-9997-db849a8528c7)
+
 ---
 
 # Machine Learning
