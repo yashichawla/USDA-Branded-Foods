@@ -6,7 +6,7 @@ This project explores how food data from USDA FoodData Central can be organized 
 
 ## Data Procurement
 
-To obtain data from the Branded Food Products Dataset provided by the USDA, visit the USDA FoodData Central website. Navigate to the "Data Download" section, where you can access the dataset in various formats. Select the "Branded Food Products Dataset" and download the file.
+To obtain data from the Branded Food Products Dataset provided by the USDA, visit the USDA FoodData Central website [https://fdc.nal.usda.gov]. Navigate to the "Data Download" section, where you can access the dataset in various formats. Select the "Branded Food Products Dataset" and download the file.
 
 ## Data Cleaning
 - Navigate to the `EDA/clean_data.ipynb` notebook.
