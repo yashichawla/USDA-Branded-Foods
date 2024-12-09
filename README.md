@@ -43,7 +43,7 @@ This project explores how food data from USDA FoodData Central can be organized 
 - Train and evaluate a logistic regression model to understand its predictive capability for food categorization.
 
 ## Random Forest
-- Open the `ML/IDMP_ML_Logistic Regressi` notebook.
+- Open the `ML/IDMP_ML_Logistic Regression` notebook.
 - Train and evaluate a random forest model to understand its predictive capability for food categorization.
 
 
