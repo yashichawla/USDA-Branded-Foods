@@ -28,7 +28,20 @@ To obtain data from the Branded Food Products Dataset provided by the USDA, visi
 - Refer to the ER diagram in the `Schema` folder for a visual representation.
 
 ## Data Loading
-- Use appropriate tools (e.g., SQL queries, Python scripts) to load the cleaned data into the database tables.
+### Import the CSV File into pgAdmin
+
+1. **Locate the Table**:  
+   - In pgAdmin, find the table you want to import data into.  
+   - Right-click on the table and choose **"Import/Export"**.
+
+2. **Set Import Options**:  
+   - **Filename**: Browse and select your CSV file.  
+   - **Format**: Choose `CSV`.  
+   - **Header**: Check this box if your CSV has column headers.  
+   - **Delimiter**: Set the delimiter (e.g., `,` for commas).  
+
+3. **Start Import**:  
+   - Click **OK** to start the import.
 
 ---
 
